@@ -1,0 +1,15 @@
+Fitness function:
+
+For each apple eaten: +10 points
+For each death: -10 points
+For each step taken while the score is less than 50 and the snake is less than 2 blocks away from its body: -0.5 points
+For each step taken while the score is above 50: +0.1 points
+At the end of each game, the final score is multiplied by the time taken (in seconds)
+
+The total fitness is the sum of all scores across all games
+
+Added features:
+
+The ability to save the AI models with the best fitness scores to a file
+The ability to resume training from a saved model
+The fittest snake is displayed to the user after each generation
